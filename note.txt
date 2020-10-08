@@ -1,0 +1,4 @@
+-buat CV dan Porfolio dan tampilkan di paozanwa22.github.io
+-Lanjutkan DOM
+-Web Habib
+	-cara mengetahui status hp yang di perbaiki
