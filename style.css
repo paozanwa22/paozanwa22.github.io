@@ -50,3 +50,72 @@ table {
 
 
 /* myStyle */
+body {
+	background-color: #ccc;
+}
+
+/* navbar */
+/* navbar nav */
+nav {
+	height: 50px;
+	background-color: rgb(153, 134, 99);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	background-color: #ccc;
+	width: 40%;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+
+/* main */
+main {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* main container */
+main #container {
+	width: 600px;
+}
+
+/* main aside */
+main aside {
+	width: 300px;
+	display: flex;
+}
+
+main aside img {
+	width: 100px;
+	height: 140px;
+	transition: 0.7s;
+}
+
+main aside img:hover {
+	transform: scale(2) translate(-50px, 50px);
+	border-radius: 10px;
+}
+
+
+/* footer */
+footer {
+	display: flex;
+	height: 100px;
+	background-color: rgb(119, 114, 114);
+	align-items: center;
+	justify-content: center;
+}
+
+footer ul {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
